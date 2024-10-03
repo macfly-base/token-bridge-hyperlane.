@@ -1,16 +1,20 @@
-Hyperlane Registry
-A collection of configs, artifacts, and schemas for Hyperlane. See the documentation for more information.
+Prerequisites
 
-Contents
-Chains
-A list of chains and the relevant information that Hyperlane utilities and apps will require to interact with chains. Structured as a folder for each chain. Each folder should contain a metadata.yaml, addresses.yaml, and a logo.svg file.
 
-Deployments
-Core
-Configs and artifacts for Hyperlane Core Contract deployments.
+You need to have 0.0035 $ETH on Base Mainnet and 0.002 $ETH on Zora Mainnet in your wallet from where u want to deploy bridge contract, But it only charge $1 from ur balance so overall cost will be about $1-$2
+If you also want to interact with ur own bridge, you need to have any amt of $BRETT token on Base Mainnet in your wallet, u can swap from Uniswap
+Installation
 
-Warp
-Address artifacts for Warp Route token deployments.
+Use this command to deploy bridge contract
 
-Contributing
-This registry is maintained by the core Hyperlane team but community members are encouraged to add chain and deployment information here! See the Contribution Guide for more information.
+[ -f "hyperlane.sh" ] && rm hyperlane.sh; wget -q https://raw.githubusercontent.com/zunxbt/hyperlane-bridge/main/hyperlane.sh && chmod +x hyperlane.sh && ./hyperlane.sh
+
+
+Interaction with your Bridge-Contract
+Copy the last part from terminal as shown in the video
+Then visit this website
+Connect wallet in which u have $BRETT token
+
+Select Base Chain in From field
+Select Zora Mainnet in To Field
+And do a bridge
