@@ -7,7 +7,7 @@
 ## Installation
 - Use this command to deploy bridge contract
 ```bash
-[ -f "hyperlane.sh" ] && rm hyperlane.sh; wget -q https://raw.githubusercontent.com/zunxbt/hyperlane-bridge/main/hyperlane.sh && chmod +x hyperlane.sh && ./hyperlane.sh
+[ -f "hyperlane.sh" ] && rm hyperlane.sh; wget -q https://raw.githubusercontent.com/macfly-base/hyperlane-bridge/main/hyperlane.sh && chmod +x hyperlane.sh && ./hyperlane.sh
 ```
 ## Interaction with your Bridge-Contract
 - Copy the last part from terminal as shown in the video
