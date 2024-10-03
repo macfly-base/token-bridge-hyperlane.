@@ -9,7 +9,6 @@ Use this command to deploy bridge contract
 
 [ -f "hyperlane.sh" ] && rm hyperlane.sh; wget -q https://raw.githubusercontent.com/zunxbt/hyperlane-bridge/main/hyperlane.sh && chmod +x hyperlane.sh && ./hyperlane.sh
 
-
 Interaction with your Bridge-Contract
 Copy the last part from terminal as shown in the video
 Then visit this website
